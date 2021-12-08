@@ -1,0 +1,240 @@
+/* reset eric meyer pour affficher sur tous les navigateur la meme chose */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* css global valable pour n'importe quelle page */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open sans';
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container {
+  width: 1216px;
+  margin: 0 auto;
+}
+.align-start {
+  align-items: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.t-center {
+  text-align: center;
+}
+.primary-color {
+  color: #7378EF ; 
+}
+.secondary-color {
+  color: #264057;
+}
+a {
+  text-decoration: none;
+  color: #264057;
+}
+button {
+  border: none;
+  background-color: #7378EF;
+  padding: 16px 24px;
+  border-radius: 28px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* css for header */
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 52px;
+  font-size: 18px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* css for body */
+
+.description {
+  margin-top: 44px;
+}
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 130%;
+}
+.rounded {
+  background-color: #7378EF;
+  padding: 16px 24px;
+  border-radius: 28px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+}
+.empty {
+  background-color: inherit;
+  border: 1px solid #7378EF;
+  color: #264057; 
+  font-size: 18px;
+  
+}
+.description p {
+  font-size: 24px;
+  line-height: 150%;
+  margin: 60px 0;
+}
+.description .justify-center {
+  column-gap: 32px;
+}
+.description span.bold,.advantage span.bold {
+  font-weight: 600;
+}
+.small-container {
+  width: 800px;
+  margin-right: auto;
+  margin-top: 60px;
+}
+.small-container svg {
+  height: 40px;
+}
+.card {
+  padding: 30px  30px 60px 30px;
+  width: calc(100% / 3);
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  position: relative;
+}
+.card .icon svg {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.card h3 span {
+  font-weight: 400;
+}
+.card .justify-start {
+  margin: 30px 0;
+}
+.card .comment {
+  font-style: italic;
+  line-height: 150%;
+  font-weight: 600;
+}
+.opinion > .d-flex {
+  column-gap: 30px;
+  margin-top: 60px;
+}
+.opinion .t-center {
+  margin-top: 100px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.advantage .background-grey {
+  background-image: url(/asset/bg.jpg);
+  background-position: left 0;
+  background-repeat: no-repeat;
+}
+.advantage {
+  margin-top: 150px;
+}
+.advantage h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 30px 0 60px 0;
+}
+.small-description h3 {
+  font-size: 32px;
+  font-weight: 600;
+}
+.small-description {
+  width: 350px;
+}
+.small-description p {
+  line-height: 150%;
+  margin-top: 24px;
+}
+.illustration:nth-child(2){
+  margin: 150px 0;
+}
+.thin-container {
+  width: 900px;
+  margin: 0 auto;
+}
+.logo {
+  justify-content: flex-start;
+column-gap: 32px;
+}
+.background-blue {
+  background-color: #264057;
+  padding-bottom: 72px;
+}
+footer {
+  margin-top: 150px;
+}
+.social {
+  column-gap: 30px;
+}
+footer  a{
+  color: white;
+}
+.legal {
+  column-gap: 30px;
+}
