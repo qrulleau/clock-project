@@ -203,6 +203,7 @@ h1 {
 .small-description h3 {
   font-size: 32px;
   font-weight: 600;
+  line-height: 130%;
 }
 .small-description {
   width: 350px;
